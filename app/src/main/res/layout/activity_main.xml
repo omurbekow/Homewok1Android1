@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sky_blue"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/im_sign"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/images"/>
+
+    <EditText
+        android:id="@+id/et_email"
+        style="@style/EditTextTheme"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:drawableStart="@drawable/ic_person"
+        android:hint="  Email"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/Password"
+        style="@style/EditTextTheme"
+        android:inputType="numberPassword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:drawableStart="@drawable/ic_lock"
+        android:hint="  Password"
+        android:textColorHint="@color/white" />
+
+
+
+
+
+
+<com.google.android.material.button.MaterialButton
+    android:id="@+id/btn_login"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:padding="15dp"
+    android:text="log_in"
+    android:textColor="@color/black"
+    app:cornerRadius="20dp">
+
+</com.google.android.material.button.MaterialButton>
+
+
+</LinearLayout>
